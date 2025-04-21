@@ -36,6 +36,38 @@
   - React Router  
   - Axios for HTTP calls  
 
+## Architecture
+
+The HCM Web API is organized into four main layers to promote separation of concerns, testability, and reuse:
+
+
+[ ASP.NET Core Web API ]
+        └── Controllers
+              • AuthController
+              • UsersController
+              • PersonsController
+              • DepartmentsController
+              • PositionsController
+                   ↓
+[ Business Logic Library ]
+        └── Services / Handlers
+              • IUserService
+              • IPersonService
+              • IDepartmentService
+              • IPositionService
+                   ↓
+[ Persistence Library ]
+        └── Repositories (Repository Pattern)
+              • IUserRepository
+              • IPersonRepository
+              • IDepartmentRepository
+              • IPositionRepository
+        └── EF Core DbContext
+                   ↓
+[ Core Library ]
+        └── Common Models, Constants & Helpers
+
+
 ## Screenshots
 
 **Login Page**  
