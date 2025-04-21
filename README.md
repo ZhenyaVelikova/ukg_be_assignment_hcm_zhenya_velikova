@@ -7,17 +7,7 @@
 - [Features](#features)  
 - [Tech Stack](#tech-stack)  
 - [Architecture](#architecture)  
-- [Getting Started](#getting-started)  
-  - [Prerequisites](#prerequisites)  
-  - [Backend Setup](#backend-setup)  
-  - [Frontend Setup](#frontend-setup)  
-- [Configuration](#configuration)  
-- [Available Endpoints](#available-endpoints)  
-- [React App Functionality](#react-app-functionality)  
-- [Security & Best Practices](#security--best-practices)  
-- [Logging](#logging)  
-- [Running Tests](#running-tests)  
-- [License](#license)  
+- [Screenshots](#screenshots)  
 
 ---
 
