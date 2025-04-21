@@ -1,0 +1,64 @@
+# HCM (Human Capital Management) App
+
+> A .NET 8 Web API and React single‑page application for managing users, people, departments and positions with JWT‑based authentication (access & refresh tokens).
+
+## Table of Contents
+
+- [Features](#features)  
+- [Tech Stack](#tech-stack)  
+- [Architecture](#architecture)  
+- [Getting Started](#getting-started)  
+  - [Prerequisites](#prerequisites)  
+  - [Backend Setup](#backend-setup)  
+  - [Frontend Setup](#frontend-setup)  
+- [Configuration](#configuration)  
+- [Available Endpoints](#available-endpoints)  
+- [React App Functionality](#react-app-functionality)  
+- [Security & Best Practices](#security--best-practices)  
+- [Logging](#logging)  
+- [Running Tests](#running-tests)  
+- [License](#license)  
+
+---
+
+## Features
+
+- **User Management**: Create, read, update, delete users & person profiles  
+- **Departments & Positions**: Full CRUD for Departments and Positions  
+- **JWT Authentication**:  
+  - **Access Token** (short‑lived)  
+  - **Refresh Token** (long‑lived)  
+- **React SPA**:  
+  - List/Add/Edit People  
+  - User Profile & Change Password  
+  - Secure routes based on JWT  
+
+---
+
+## Tech Stack
+
+- **Backend**  
+  - .NET 8 + C#  
+  - ASP.NET Core Web API
+  - Entity Framework Core (SQL Server)  
+- **Frontend**  
+  - React
+  - React Router  
+  - Axios for HTTP calls  
+
+## Screenshots
+
+**Login Page**  
+![Login Screen](screenshots/login.png)
+
+**People List**  
+![People List](screenshots/people-list.png)
+
+**Change Password**  
+![Profile](screenshots/change-password.png)
+
+**Add Person**  
+![Profile](screenshots/add-person.png)
+
+**Edit Person**  
+![Profile](screenshots/edit-person.png)
