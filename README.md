@@ -40,7 +40,7 @@
 
 The HCM Web API is organized into four main layers to promote separation of concerns, testability, and reuse:
 
-
+```text
 [ ASP.NET Core Web API ]
         └── Controllers
               • AuthController
