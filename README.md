@@ -66,6 +66,7 @@ The HCM Web API is organized into four main layers to promote separation of conc
                    ↓
 [ Core Library ]
         └── Common Models, Constants & Helpers
+```
 
 
 ## Screenshots
